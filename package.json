@@ -1,0 +1,14 @@
+{
+  "name": "dojo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Renan Aquino",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn tsc --project tsconfig.json",
+    "exec": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
+}
